@@ -30,7 +30,6 @@
 ;; What is that thing for anyway?
 (package-require 'multiple-cursors)
 (global-set-key (kbd "<insert>") 'mc/mark-next-like-this)
-(global-set-key (kbd "S-<insert>") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-'") 'mc/mark-more-like-this-extended)
 (global-set-key (kbd "C-\"") 'mc/mark-all-like-this-dwim)
 (global-set-key (kbd "C-M-'") 'mc/edit-lines)
